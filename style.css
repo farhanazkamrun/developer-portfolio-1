@@ -7,3 +7,21 @@ h1{
 .orange-color{
     color: crimson;
 }
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+       width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
